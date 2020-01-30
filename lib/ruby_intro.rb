@@ -69,6 +69,6 @@ attr_accessor :isbn, :price
   end
 
   def price_as_string
-    "$%.2f" % @price #concatenates % and converts price attribute (@price) into floating point with 2 decimal points
+    "$%.2f" % @price 
   end
 end
